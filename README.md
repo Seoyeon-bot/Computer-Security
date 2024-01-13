@@ -12,7 +12,7 @@ Programming regarding techniques for privilege escalation, buffer overflows, rac
 • Stack layout
 • Address randomization, non-executable stack, and StackGuard
 • Shellcode (32-bit and 64-bit)
-• Thereturn-to-libcattack,whichaimsatdefeatingthenon-executablestackcountermeasure,iscovered
+• Thereturn-to-libcattack,which aims at defeating th enon-executable stack counter measure,is covered
 in a separate lab.
 
 #Lab5 - Buffer Overflow & Return-to-libc attack & ROP
@@ -33,8 +33,10 @@ in a separate lab.
 
 #Lab8 - XSS attack 
 • Cross-Site Scripting attack
-• XSS worm and self-propagation • Session cookies
-• HTTP GET and POST requests • JavaScript and Ajax
+• XSS worm and self-propagation 
+• Session cookies
+• HTTP GET and POST requests 
+• JavaScript and Ajax
 • Content Security Policy (CSP)
 
 #Lab9 - SQL Injection Attack Lab
