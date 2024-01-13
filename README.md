@@ -8,11 +8,11 @@ Programming regarding techniques for privilege escalation, buffer overflows, rac
 • Dynamic loader/linker
 
 #Lab4 - Buffer Overflow
-• Buffer overflow vulnerability and attack
+• Buffer overflow vulnerability and attack\n
 • Stack layout
 • Address randomization, non-executable stack, and StackGuard
 • Shellcode (32-bit and 64-bit)
-• Thereturn-to-libcattack,which aims at defeating th enon-executable stack counter measure,is covered
+• Thereturn-to-libcattack,which aims at defeating the non-executable stack counter measure,is covered
 in a separate lab.
 
 #Lab5 - Buffer Overflow & Return-to-libc attack & ROP
