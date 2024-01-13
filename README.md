@@ -51,3 +51,11 @@ in a separate lab.
 • Manipulating packets using Scapy  
 
 # Project About CSP 
+Title: Analysis of Content Security Policy (CSP) Directives in Top Web Domains  
+
+Introduction
+Our project's aim was to analyze the distribution and configuration of Content Security Policies (CSPs) across various websites. We recognized the growing importance of CSPs in protecting against common security vulnerabilities like Cross-Site Scripting (XSS) and data injection attacks. By examining CSP implementations, we intended to understand the common practices and pinpoint prevalent misconfigurations that could undermine security efforts.
+
+
+
+
