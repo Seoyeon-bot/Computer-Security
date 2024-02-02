@@ -2,6 +2,7 @@ import requests
 import csv
 import time
 import re
+from security import safe_requests
 
 # Function to read websites from a CSV file
 def read_websites_from_csv(file_path):
@@ -17,7 +18,7 @@ def read_websites_from_csv(file_path):
 def fetch_csp(url, retries=3, backoff_factor=0.3):
     for i in range(retries):
         try:
-            response = requests.get(url, timeout=15)
+            response = safe_requests.get(url, timeout=15)
             csp_policy = response.headers.get('Content-Security-Policy')
             return csp_policy
         except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as e:
